@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 /* Custom Properties*/
 :root{
     --ff-primary:'Source Sans Pro', sans-serif;
@@ -13,7 +14,7 @@
     --fw-bold: 900;
 
     --clr-light:#fff;
-    --clr-text:#303030;
+    --clr-dark:#303030;
     --clr-accent:#16e0bd;
 
     --fs-h1: 3rem;
@@ -32,7 +33,8 @@
 }
 /* General styles*/
 body{
-    background-color:
+    background-color: rgba(202, 255, 218, 0.849);
+    color: var(--clr-dark);
     margin: 0;
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
