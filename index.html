@@ -20,6 +20,9 @@
         <div>
             <p>Welcome to my Website!</p>
         </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
         <nav class="nav">
             <ul class="nav__list">
                 <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
@@ -34,14 +37,16 @@
     <!--Introduction-->
 
     <section class="intro" id="home">
-        <h1 class="section__title section__title--intro">Hi, I am <strong>Marius Gabriel</strong></h1>
+        <h1 class="section__title section__title--intro">
+            Hi, I am <div class="mg">Marius Gabriel</div>
+        </h1>
         <p class="section__subtitle section__subtitle--intro">front-end dev</p>
-        <img src="img/marius.jpg" alt="A nice picture of me" class="logo">
+        <img src="img/marius.jpg" alt="A nice picture of me" class="intro__img">
     </section>
 
     <!--my services-->
     <section class="my-services" id="services">
-        <h2 class="section__title sections__title--services">What I do</h2>
+        <h2 class="section__title section__title--services">What I do</h2>
         <div class="services">
             <!--Service-->
             <div class="service">
